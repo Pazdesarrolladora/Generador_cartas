@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+}
+.tittle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto
+  }
+  
+  .card {
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    position: relative;
+    border-radius: 15px;
+    background-size: 100%;
+    background-image: url("https://i.pinimg.com/564x/9f/60/2b/9f602bdd3aa5f81f7201740c807aa362.jpg");
+
+
+  }
+  .palo-arriba {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 100px;
+  }
+  
+  .valor {
+    text-align: center;
+    margin-top: 80px;
+    font-size: 120px;
+  }
+  
+  .palo-abajo {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 100px;
+    transform: rotate(180deg);
+  }
